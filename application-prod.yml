@@ -3,3 +3,8 @@ spring:
     username: root
     url: jdbc:mysql://localhost:3306/library-prod
     password: Maggi@555lj
+    
+senior:
+  citizen: James
+junior:
+  citizen: Bond
