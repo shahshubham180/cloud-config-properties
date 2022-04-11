@@ -1,4 +1,11 @@
-
+spring:
+  datasource:
+    username: cfxbpkxmpvapoo
+    url: postgres://cfxbpkxmpvapoo:c533681d6646e172495fedd58776ef8cced8b3ed5348d585afada0a1da90b0d1@ec2-44-194-4-127.compute-1.amazonaws.com:5432/dci52ean73aikg
+    password: c533681d6646e172495fedd58776ef8cced8b3ed5348d585afada0a1da90b0d1
+  jpa:
+    generate-ddl: true
+    
 senior:
   citizen: James
 junior:
