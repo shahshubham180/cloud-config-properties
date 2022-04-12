@@ -1,7 +1,7 @@
 spring:
   datasource:
-    username: cfxbpkxmpvapoo
-    url: jdbc:postgresql://ec2-44-194-4-127.compute-1.amazonaws.com:5432/dci52ean73aikg
+    username: bwhlpkbjwhyikn
+    url: jdbc:postgresql://ec2-34-207-12-160.compute-1.amazonaws.com:5432/dapn73tdmpcjs7
     password: ${{secrets.DB_PASSWORD}}
 
 library-app:
