@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: fxcalkhwcqtnhy
-    url: jdbc:postgresql://ec2-34-207-12-160.compute-1.amazonaws.com:5432/dcqkrkvfuot95l
-    password: ${{secrets.LIBRARY_PASSWORD}}
+    username: ${JDBC_DATABASE_USERNAME}
+    url: ${JDBC_DATABASE_URL}
+    password: ${JDBC_DATABASE_PASSWORD}
   
   jpa:
     generate-ddl: true
