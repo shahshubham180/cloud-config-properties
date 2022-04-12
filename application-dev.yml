@@ -3,8 +3,9 @@ spring:
     username: cfxbpkxmpvapoo
     url: jdbc:postgresql://ec2-44-194-4-127.compute-1.amazonaws.com:5432/dci52ean73aikg
     password: ${{secrets.DB_PASSWORD}}
-  jpa:
-    generate-ddl: true
+
+library-app:
+  uri: https://library-app-12-factor-app.herokuapp.com
     
 senior:
   citizen: James
