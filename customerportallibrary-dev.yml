@@ -13,3 +13,6 @@ senior:
   citizen: James
 junior:
   citizen: Bond
+
+auth:
+  password: ${PASSWORD}
