@@ -10,9 +10,9 @@ library-app:
   uri: https://library-app-12-factor-app.herokuapp.com
     
 senior:
-  citizen: James
+  citizen: Bhagvat Gita
 junior:
-  citizen: Bond
+  citizen: The monk who sold his Ferrari
 
 auth:
   password: ${PASSWORD}
