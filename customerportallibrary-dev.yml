@@ -12,7 +12,7 @@ library-app:
 senior:
   citizen: Mahabharat
 junior:
-  citizen: The monk who sold his Ferrari
+  citizen: 2 States
 
 auth:
   password: ${PASSWORD}
