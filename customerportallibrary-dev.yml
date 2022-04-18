@@ -4,7 +4,7 @@ spring:
     url: ${JDBC_DATABASE_URL}
     password: ${JDBC_DATABASE_PASSWORD}
   jpa:
-    generate-ddl: false
+    generate-ddl: true
 
 library-app:
   uri: https://library-app-12-factor-app.herokuapp.com
