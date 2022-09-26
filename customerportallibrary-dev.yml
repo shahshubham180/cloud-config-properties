@@ -10,7 +10,7 @@ library-app:
   uri: https://library-app-12-factor-app.herokuapp.com
     
 senior:
-  citizen: How to own a Ferrari
+  citizen: Lord of the Rings
 junior:
   citizen: 2 States
 
