@@ -1,1 +1,8 @@
-
+spring:
+  datasource:
+    username: ${secrets.JDBC_DATABASE_USERNAME}
+    url: ${secrets.JDBC_DATABASE_URL}
+    password: ${secrets.JDBC_DATABASE_PASSWORD}
+  
+  jpa:
+    generate-ddl: true
