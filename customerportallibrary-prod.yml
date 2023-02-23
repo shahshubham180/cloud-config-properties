@@ -14,5 +14,3 @@ senior:
 junior:
   citizen: Bond
 
-auth:
-  password: ${PASSWORD}
