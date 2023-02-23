@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: ${secrets.JDBC_DATABASE_USERNAME}
+    username: ${{secrets.JDBC_DATABASE_USERNAME}}
     url: jdbc:mysql://mysqldb:3306/customerportallibrary
-    password: ${secrets.JDBC_DATABASE_PASSWORD}
+    password: ${{secrets.JDBC_DATABASE_PASSWORD}}
   
   jpa:
     generate-ddl: false
