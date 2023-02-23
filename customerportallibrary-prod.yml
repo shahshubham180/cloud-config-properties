@@ -4,7 +4,7 @@ spring:
     url: ${secrets.JDBC_DATABASE_URL}
     password: ${secrets.JDBC_DATABASE_PASSWORD}
   jpa:
-    generate-ddl: false
+    generate-ddl: true
 
 library-app:
   uri: https://localhost:8700/
