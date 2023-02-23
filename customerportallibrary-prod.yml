@@ -4,7 +4,7 @@ spring:
     url: jdbc:mysql://mysqldb:3306/customerportallibrary
     password: root
   jpa:
-    generate-ddl: true
+    generate-ddl: false
 
 library-app:
   uri: https://localhost:8700/
