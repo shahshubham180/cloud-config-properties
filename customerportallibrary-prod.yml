@@ -5,9 +5,12 @@ spring:
     password: root
   jpa:
     generate-ddl: false
+    
+server:
+  port: 8081
 
 library-app:
-  uri: https://localhost:8700/
+  uri: http://library-app:8080/
     
 senior:
   citizen: James
