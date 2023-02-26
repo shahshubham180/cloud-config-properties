@@ -6,6 +6,4 @@ spring:
   
   jpa:
     generate-ddl: false
-    
-  server:
-    port: 8082
+
