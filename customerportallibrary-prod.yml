@@ -13,7 +13,7 @@ library-app:
   uri: http://library-app:8080/
     
 senior:
-  citizen: James
+  citizen: Ramayana
 junior:
   citizen: Bond
 
